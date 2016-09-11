@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/libs/internal_impl-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/internal_impl-24.0.0-beta1-854fc8689ff909e4811fb6118da12aa0550a8847.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3c0208faf42864e6695345e64d1b955070263819">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/classes-bfcff1f52d64482fac427d89df48aa652161e7d0.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/support-annotations-24.0.0-beta1-69c39ed4696c5897a3636351da1cfcb0df5d8083.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/libs/hyphenatechat_3.1.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="142f9ffa943f2d074c60071bf61c62003ff37c9b">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/hyphenatechat_3.1.3-4deafbedabea56e4690cdf99e900e2f14539172b.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/libs/android-async-http-1.4.4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3bae85a076241828810bf8fbcc12e5891d5fc34c">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.4-22f2d557fc66887e11eb2f2f1104622230c1ecf3.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d3137a71200c47974c0454ae8ad272a09c533eb">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/classes-48ce921c391f6b1b69ea94e3f1efab296fd87b6c.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/classes-32502d883ede4524164d027263ee9fe2de9341c6.jar" />
+    </item>
+    <item
+        jar="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="97f82fd0c185bd2881a93646954f2429be4baa86">
+        <dex dex="/Users/lichanghong/360yun11976/Liuyao_android/app/build/intermediates/pre-dexed/debug/classes-2b6e221ef95f682609fcb7e76e663d5504c3b9b8.jar" />
+    </item>
+
+</items>

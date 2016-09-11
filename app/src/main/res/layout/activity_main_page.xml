@@ -1,0 +1,123 @@
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:background="@color/main_btn_parent_color"
+    android:layout_width="match_parent">
+
+  <LinearLayout
+      android:layout_weight="1"
+      android:background="#f2515f"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical"
+      android:alpha="85">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="44dp"
+          android:orientation="horizontal"
+          android:background="@android:color/transparent"
+          >
+
+          <ImageView
+              android:layout_width="30dp"
+              android:layout_height="30dp"
+              android:layout_marginTop="7dp"
+              android:layout_marginLeft="12dp"
+              android:background="@drawable/qiguabtn2x"/>
+          <TextView
+              android:layout_width="100dp"
+              android:layout_height="match_parent"
+              android:text="六爻排盘"
+              android:textColor="@android:color/white"
+              android:gravity="center_vertical"
+              android:layout_marginLeft="5dp"
+              />
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="match_parent"
+              android:gravity="right" >
+
+              <Button
+                  android:id="@+id/settingbtn"
+                  android:layout_width="30dp"
+                  android:layout_height="30dp"
+                  android:layout_marginRight="5dp"
+                  android:layout_gravity="center_vertical"
+                  android:background="@drawable/nav_setting_white2x"/>
+          </LinearLayout>
+      </LinearLayout>
+     <LinearLayout
+         android:layout_weight="1"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:background="@android:color/holo_red_dark"
+         android:rowCount="2"
+         android:columnCount="3" >
+         <ImageView
+             android:background="@drawable/ad"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+     </LinearLayout>
+  </LinearLayout>
+    <GridLayout
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:columnCount="3"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        >
+        <Button android:id="@+id/button1"
+            android:height="80dp"
+            android:width="80dp"
+            android:layout_marginRight="15dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:text="六爻起卦"/>
+        <Button android:id="@+id/button2"
+            android:height="80dp"
+            android:width="80dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:text="学习卦例"/>
+        <Button android:id="@+id/button3"
+            android:layout_marginLeft="15dp"
+            android:height="80dp"
+            android:width="80dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:text="我的历史"/>
+
+
+        <Button android:id="@+id/button4"
+            android:height="80dp"
+            android:width="80dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:text="帮他解卦"/>
+        <Button android:id="@+id/five"
+            android:height="80dp"
+            android:width="80dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/shape"
+            android:visibility="invisible"
+            android:text="无"/>
+        <Button android:id="@+id/button5"
+            android:height="80dp"
+            android:width="80dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@android:color/white"
+            android:background="@drawable/shape"
+            android:text="使用帮助"/>
+
+    </GridLayout>
+
+
+</LinearLayout>

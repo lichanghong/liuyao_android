@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">六爻排盘</string>
+
+    <string name="HostName">http://192.168.1.103</string>
+    <string name="huanxin_Client_Secret">YXA6mKcnunz7dUVDzqNQ2ShrlKXScJc</string>
+    <string name="huanxin_Client_ID">YXA64WtCYCq8EeaDkBVpyIu4TA</string>
+    <string name="huanxin_get_token_url">https://a1.easemob.com/lichanghong/liuyao/token</string>
+
+
+    <string name="ganzhiURL">http://api.tuijs.com/solarToLunar</string>
+
+    <string name="title_activity_main_page">六爻排盘</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

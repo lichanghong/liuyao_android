@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+        ></TextView>
+
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+        ></TextView>
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+        ></TextView>
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+        ></TextView>
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin"
+        ></TextView>
+
+    <com.haihong.liuyao.lyapp.YYView
+        android:id="@+id/yyview6"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+    </com.haihong.liuyao.lyapp.YYView>
+</LinearLayout>
