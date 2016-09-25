@@ -1,23 +1,17 @@
 package com.haihong.liuyao.lyapp;
 
-import com.haihong.liuyao.lyapp.util.SystemUiHider;
 
-import android.annotation.TargetApi;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 
-/**
- * An example full-screen activity that shows and hides the system UI (i.e.
- * status bar and navigation/system bar) with user interaction.
- *
- * @see SystemUiHider
- */
+import com.haihong.liuyao.lyapp.Help.Help;
+import com.haihong.liuyao.lyapp.Login.Register;
+
+
 public class MainPageActivity extends Activity {
 
     Button setttingBtn, button1,button2,button3,button4,button5;
@@ -47,13 +41,17 @@ public class MainPageActivity extends Activity {
         setttingBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent;
+                intent = new Intent(MainPageActivity.this,SettingPageActivity.class);
+                startActivity(intent);
             }
         });
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainPageActivity.this, Client.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.fade_out);
             }
         });
 
@@ -81,7 +79,9 @@ public class MainPageActivity extends Activity {
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                Intent intent = new Intent(MainPageActivity.this, Help.class);
+                startActivity(intent);
+                overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.fade_out);
             }
         });
     }

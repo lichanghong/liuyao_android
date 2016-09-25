@@ -3,4 +3,10 @@
     <color name="black_overlay">#66000000</color>
     <color name="main_btn_parent_color">#C7A56C</color>
     <color name="main_btn_color">#408000</color>
+    <color name="app_color">#804000</color>
+    <color name="login_input_bg_color">#ddB5AAAA</color>
+    <color name="help_text_color">#AC00FF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
 </resources>

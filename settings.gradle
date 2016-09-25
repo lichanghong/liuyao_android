@@ -1,1 +1,1 @@
-include ':app',  ':easeui-sdk3.0'
+include ':app'

@@ -4,4 +4,5 @@
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="margin">23dp</dimen>
     <dimen name="ganzhibtnW">50dp</dimen>
+    <dimen name="client_margin_left">35dp</dimen>
 </resources>
